@@ -1,5 +1,5 @@
 import React from 'react'
-import { Grid, Paper, Typography, Fade } from '@material-ui/core';
+import { Grid, Paper, Typography } from '@material-ui/core';
 import csx from 'classnames';
 import CountUp from 'react-countup';
 import styles from './Stats.module.css';
@@ -27,7 +27,7 @@ const Stats = ({id, data: {recovered, infected, deaths} , country}) => {
         <Grid id={id} container item direction='column' justify="center" alignItems="center" className={styles.border}>
             <Grid item style={{ padding: '40px 20px 0px' }}>
                     <Typography variant='h2'>
-                    {country ? country : 'Global'}
+                    {!country ? 'Global' : country}
                 </Typography>
             </Grid>
 
