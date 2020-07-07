@@ -1,0 +1,10 @@
+a:hover.nav{
+    background-color: #fff;
+    color: #3f51b5;
+    transition: background-color 0.25s ease-in, color 0.25s ease-in ;
+}
+
+a.nav{
+    padding: 25px 25px;
+    transition: background-color 0.25s ease-in, color 0.25s ease-in ;
+}

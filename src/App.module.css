@@ -1,0 +1,6 @@
+html, body, #root, .container{
+    width: 100% !important;
+    margin: 0px !important;
+    scroll-behavior: smooth;
+    background-color: lavender;
+}

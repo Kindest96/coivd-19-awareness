@@ -1,0 +1,8 @@
+.chart{
+    max-width: 1000px;
+    width: 90% !important;
+    padding: 25px;
+    height: 550px;
+    text-align: center !important;
+    vertical-align: middle !important;
+}
