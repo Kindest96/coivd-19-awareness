@@ -29,7 +29,7 @@ const Footer = () => {
     <div className={classes.root}>
       <footer className={classes.footer}>
         <Container maxWidth="sm">
-          <Typography variant="body1">Made by <Link color="inherit" href="https://github.com/Kindest96/coivd-19-awareness" target='_blank'>Asif Nawaz</Link></Typography>
+          <Typography variant="body1">Made by <Link color="inherit" href="https://github.com/Kindest96/covid-19-awareness" target='_blank'>Asif Nawaz</Link></Typography>
           <Typography variant="body2" color="textSecondary">{'Copyright © '}<Link color="inherit" href="http://covid19_awareness.surge.sh/" target='_blank'>Your Website</Link>{' '}{new Date().getFullYear()}{'.'}</Typography>
               </Container>
       </footer>
