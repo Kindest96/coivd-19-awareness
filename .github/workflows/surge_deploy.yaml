@@ -34,4 +34,4 @@ jobs:
         yarn build
       
     - name: Deploy surge
-      run: surge ./build covid19_awareness.sh --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./build covid19_awareness.surge.sh --token ${{secrets.SURGE_TOKEN}}
